@@ -76,7 +76,7 @@ We brew coffee from locally roasted, Fairtrade certified beans and use biodegrad
 Filter
 Regular (12 oz) $1
 Large (16 oz) $1.25
-XL (20 oz) $1.5
+XL (20 oz) $1.5S
 Party-size (24 oz, decaf) $1.75
 Iced Coffee (16 oz) $1.25
 
