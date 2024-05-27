@@ -4,12 +4,6 @@
   flex-direction: column;
 }
 
-.card:last-child {
-  display: flex;
-  flex-direction: column;
-
-}
-
 .card__title {
   font-family: "Inter";
   font-style: normal;
@@ -19,8 +13,9 @@
 }
 
 .card__list {
-  margin-top: 32px;
-  font-family: "Noto Serif";
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Noto Serif", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -30,10 +25,11 @@
 
 .card__list-item {
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .card__list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
+  margin-bottom: 0;
 }

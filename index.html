@@ -7,7 +7,6 @@
   <meta name="description" content="coffee shop in triple peaks library">
   <meta name="keywords" content="coffee, coffee shop, shop">
   <meta name="author" content="Alexander Micu">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="favicon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,24 +14,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 </head>
 
+<!--Sorry, I resubmitted the same assignment before I went trhough and fixed the issues-->
 
 <body>
   <div class="page">
     <header class="header">
       <nav class="nav">
-        <img class="nav__image" src=images/logo_coffeeshop_dark.svg alt="coffeeshop logo">
+        <img class="nav__logo" src=images/logo_coffeeshop_dark.svg alt="coffeeshop logo">
         <ul class="nav__links">
           <li>
-            <a href="#recipes" class="nav__links">Recipes</a>
+            <a href="#recipes" class="nav__link">Recipes</a>
           </li>
           <li>
-            <a href="#reservations" class="nav__links">Book a table</a>
+            <a href="#reservations" class="nav__link">Book a table</a>
           </li>
           <li>
-            <a href="#menu" class="nav__links">Menu</a>
+            <a href="#menu" class="nav__link">Menu</a>
           </li>
           <li>
-            <a href="#footer" class="nav__links">Contacts</a>
+            <a href="#footer" class="nav__link">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -54,9 +54,9 @@
 
     </header>
     <main class="content">
-      <section class="recipes">
-        <div class="recipes__title">Recipes</div>
-        <div class="recipes__subtitle">Check out some recipes we've collected for your home-brewing experience</div>
+      <section class="recipes" id="recipes">
+        <h2 class="recipes__title">Recipes</h2>
+        <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing experience</p>
         <div class="recipes__videos">
           <div>
             <iframe
@@ -74,8 +74,8 @@
           </div>
         </div>
       </section>
-      <section class="reservation">
-        <div class="reservation__title">Book a table</div>
+      <section class="reservation" id="reservations">
+        <h2 class="reservation__title">Book a table</h2>
         <form class="form reservation__form">
           <fieldset class="form__fieldset">
             <label for="name" class="form__label">Name *</label>
@@ -109,9 +109,9 @@
           </div>
         </form>
       </section>
-      <section class="menu">
-        <div class="menu__title">Menu</div>
-        <div class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradeable cups. All teas from our collection are $2/cup.</div>
+      <section class="menu" id="menu">
+        <h2 class="menu__title">Menu</h2>
+        <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradeable cups. All teas from our collection are $2/cup.</p>
         <ul class="menu__cards">
           <div class="card">
           <h3 class="card__title">Filter</h3>
@@ -145,34 +145,34 @@
           </div>
         </ul>
       </section>
-      <section class="about">
-      <div class="about__title">About the coffee shop</div>
+      <section class="about" id="about">
+      <h2 class="about__title">About the coffee shop</h2>
       <div class="about__content">
-        <div class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.</div>
-        <div class="about__paragraph">Our main mission is keeping guests cozy and energized.</div>
-        <div class="about__paragraph">Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!</div>
+        <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.</p>
+        <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
+        <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!</p>
       </div>
       <div class="about__circle"></div>
+      <div class="about__circle about__circle_animation_blurred"></div>
+
       </section>
     </main>
     <footer class="footer">
      <div class="footer__content">
-      <div class="footer__logo"><img class="footer__logo" src="images/logo_coffeeshop_light.svg" alt="logo"></div>
-      <div class="socials">
-        <div class="footer__social-heading">Social media</div>
+      <img class="footer__logo" src="images/logo_coffeeshop_light.svg" alt="logo">
+      <div class="footer__socials">
+        <h3 class="footer__social-heading">Social media</h3>
         <ul class="footer__list">
           <li class="footer__list-item">
-            <div class="footer__social-icon"><img class="footer__social-icon" src="images/facebook_white.svg" alt="facebook logo"></div>
-            <div class="footer__social-link">Facebook</div>
+            <li class="footer__social-link" href="#"><img class="footer__social-icon" src="images/facebook_white.svg" alt="facebook logo">Facebook</li>
           </li>
           <li class="footer__list-item">
-            <div class="footer__social-icon"><img class="footer__social-icon" src="images/instagram_white.svg" alt="instagram logo"></div>
-            <div class="footer__social-link">Instagram</div>
+            <li class="footer__social-link" href="#"><img class="footer__social-icon" src="images/instagram_white.svg" alt="instagram logo">Instagram</li>
           </li>
         </ul>
-      </div>
+        </div>
      </div>
-     <div class="footer__copyright">@ 2023 Alexander Micu</div>
+     <p class="footer__copyright">@ 2023 Alexander Micu</p>
     </footer>
   </div>
 </body>
