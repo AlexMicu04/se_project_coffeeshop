@@ -22,6 +22,7 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
+  z-index: 2;
 }
 
 .header__span-accent {
@@ -42,6 +43,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  z-index: 2;
 }
 
 
@@ -51,12 +53,14 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: 1;
 }
 
 .header__footer {
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  z-index: 2;
 }
 
 .header__paragraph {
