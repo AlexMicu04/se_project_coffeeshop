@@ -11,7 +11,7 @@
 
  .menu__title {
    max-width: 780px;
-   font-family: "Inter", sans-serif;
+   font-family: "Inter", Arial, sans-serif;
    font-style: normal;
    font-weight: 500;
    font-size: 44px;
@@ -25,7 +25,9 @@
    max-width: 780px;
    margin-top: 24px;
    margin-bottom: 0;
-   font-family: "Noto Serif", sans-serif;
+   margin-left: 0;
+   margin-right: 0;
+   font-family: "Noto Serif", Arial, sans-serif;
    font-style: normal;
    font-weight: normal;
    font-size: 20px;

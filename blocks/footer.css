@@ -15,21 +15,20 @@
   height: 39px;
 }
 
-
 .footer__social-heading {
  text-align: end;
  margin-bottom: 4px;
  margin-top: 0;
- font-family: "Inter", sans-serif;
+ font-family: "Inter", Arial, sans-serif;
  font-style: normal;
- font-weight: normal;
+ font-weight: bold;
  font-size: 16px;
  line-height: 20px;
 }
 
 .footer__list {
   position: relative;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
@@ -40,7 +39,7 @@
 }
 
 .footer__list-item {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -57,12 +56,14 @@
 }
 
 .footer__social-link {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
   margin: 0;
   transition: color 0.3s ease;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footer__copyright {
