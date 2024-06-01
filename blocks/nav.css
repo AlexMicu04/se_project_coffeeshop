@@ -23,6 +23,7 @@
 }
 
 .nav__link:hover {
-
+  transition: ease-in-out .2s;
+  opacity: 70%;
 }
 
