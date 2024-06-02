@@ -15,7 +15,7 @@
 
 .about {
   display: flex;
-  padding: 100px 80px;
+  padding: 100px 80px 173px;
   background-color: #0a2850;
   color: white;
   z-index: 1;
@@ -41,7 +41,7 @@
   margin-top: 19px;
   margin-bottom: 0;
   margin-left: auto;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

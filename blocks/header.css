@@ -31,14 +31,14 @@
   color: #2f80ed;
   font-weight: normal;
   font-style: italic;
-  font-family: "Noto Serif",Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   display: block;
 }
 
 .header__description {
   max-width: 683px;
   margin: 28px 0 0;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

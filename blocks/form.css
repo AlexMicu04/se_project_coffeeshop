@@ -28,6 +28,7 @@
   border-width: 1px;
   box-sizing: border-box;
   accent-color: #2f80ed;
+  border-color: #838383;
 }
 
 .form__input::placeholder {

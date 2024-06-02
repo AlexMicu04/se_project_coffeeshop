@@ -61,9 +61,13 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  transition: color 0.3s ease;
   color: #ffffff;
   text-decoration: none;
+}
+
+.footer__social-link:hover {
+  transition: ease-in-out .2s;
+  color: #c1c1c1;
 }
 
 .footer__copyright {
@@ -71,6 +75,4 @@
   margin-bottom: 0;
 }
 
-.footer__footer-link:hover {
-  color: #c1c1c1;
-}
+
